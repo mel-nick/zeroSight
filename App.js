@@ -226,7 +226,7 @@ const SightZero = () => {
                 style={[
                   styles.resultCell,
                   styles.resultCellValue,
-                  { color: 'coral' },
+                  styles.resultCellClicksValue,
                 ]}
               >
                 {displayHClicks}
@@ -247,7 +247,7 @@ const SightZero = () => {
                 style={[
                   styles.resultCell,
                   styles.resultCellValue,
-                  { color: 'coral' },
+                  styles.resultCellClicksValue,
                 ]}
               >
                 {displayVClicks}

@@ -129,4 +129,9 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: 'coral',
   },
+  // Style for Clicks Value Cell
+  resultCellClicksValue: {
+    color: 'coral',
+    fontWeight: 'bold',
+  },
 });
